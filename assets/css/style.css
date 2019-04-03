@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../images/background.jpg) no-repeat;
+}
+
+h1, h2, #end-message {
+    padding: 5px 80px;
+
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Anton', sans-serif;
+
+    text-align: right;
+    text-decoration: underline;
+}
+
+h2, #end-message {
+    font-size: 28px;
+
+    text-align: left;
+}
+br {
+    margin: 20px, auto;
+}
+
+#char-attacker, #char-defender {
+    position: relative;
+
+    width: 100%;
+    height: 140px;
+}
+
+.character-button {
+    position: relative;
+
+    width: 120px;
+    height: 120px;
+
+    margin: 5px;
+    padding: 0;
+
+    border-color: black;
+}
+
+.hero {
+    float: left;
+
+    width: 120px;
+    height: 120px;
+
+    margin: 5px;
+    border-color: black;
+
+    background-color: black;
+    
+    border-color: blue;
+    border-width: 4px;
+    border-style: solid;
+
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+    font-family: 'Anton', sans-serif;
+
+    text-align: center;
+}
+
+.food {
+    float: left;
+
+    width: 120px;
+    height: 120px;
+
+    margin: 5px;
+    border-color: black;
+
+    background-color: black;
+
+    border-color: red;
+    border-width: 4px;
+    border-style: solid;
+
+    color: white;
+    font-size: 14px;
+    font-style: italic;
+    font-family: 'Anton', sans-serif;
+
+    text-align: center;
+}
+
+span {
+    position: absolute;
+    top: 90px;
+    left: 0;
+
+    width: 100%;
+
+    background-color: black;
+
+    color: white;
+    font-size: 12px;
+    font-style: italic;
+    font-family: 'Anton', sans-serif;
+
+    text-align: center;
+}
+
