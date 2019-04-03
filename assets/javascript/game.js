@@ -294,6 +294,7 @@ $(document).ready(function() {
 
         $("#char-attacker-stats").removeClass("hero");
         $("#char-defender-stats").removeClass("food");
+        $("#end-message").empty();
 
         selectHero = false;
         selectFood = false;
